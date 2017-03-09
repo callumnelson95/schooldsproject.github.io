@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Our Data Science Project
 
-You can use the [editor on GitHub](https://github.com/callumnelson95/schooldsproject.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can use the this site to explore our week and find status updates for our project.
 
 ### Markdown
 
