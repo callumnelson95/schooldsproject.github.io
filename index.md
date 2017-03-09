@@ -2,34 +2,26 @@
 
 You can use the this site to explore our week and find status updates for our project.
 
-### Markdown
+### Blog Post 1
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Vision
 
-```markdown
-Syntax highlighted code block
+Our overarching goal is to create a means for visualizing public schools across the country and allowing the user to 	filter along a number of parameters. We’re also hoping to include a temporal component, whereby the user can select any of the years from 2000-2016 and see how schools have changed over time, which schools closed and/or underperformed. This feature could interface with information about the passage of important education legislation throughout the years. We hope to help users understand what attributes are correlated with school success. 
 
-# Header 1
-## Header 2
-### Header 3
+#### Data
 
-- Bulleted
-- List
+Our project uses data on public schools from the National Center for Education Statistics (NCES) to create a data pipeline for analyzing and comparing schools across the country. We have school-level enrollment, staffing and retention, school performance, and demographic data. To organize this data, we have developed a star schema with a SCHOOL FACT TABLE that combines School name and primary key with State Name and primary key. 
 
-1. Numbered
-2. List
+#### Challenges so Far
 
-**Bold** and _Italic_ and `Code` text
+So far we haven't had too many issues. One source of frustration has been the relative difficulty we've had with the NCES data repository. You aren't allowed to pull more than 75 columns at a time, which means that we have to pull our data in batches and then append the CSV files. We were able to get some help from a professor in the Ed Studies department who pointed us in the right direction for more accessible data sources.
 
-[Link](url) and ![Image](src)
-```
+#### Next Steps	
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+We hope to work on two things in the coming weeks. First, we'd like to find a way to incorporate major policy changes into our schema such that we can analyze any potential correlation between policy change and school characteristics/performance. We also need to determine what trends to analyze (e.g. performance by state, comparison between public and public charter) to start to get a sense of what the data are telling us and how to disaggregate the data. 
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/callumnelson95/schooldsproject.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Group Members
+  - Callum Nelson
+  - Emma Friesner
+  - Meryl Charleston
+  - Marianne Le Quere
